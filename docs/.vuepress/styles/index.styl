@@ -1,0 +1,52 @@
+html {
+  background-color: $bgColor;
+}
+
+.navbar,
+.navbar div.links,
+.sidebar,
+.theme-container{
+  color: $textColor;
+  background-color: $bgColor;
+}
+
+.navbar{
+  height: 52px;
+}
+.navbar div.links{
+  top: 0.45rem;
+}
+.navbar span.site-name {
+  font-family: -apple-system,"Segoe UI",system-ui,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  position: absolute;
+  top: 9px;
+  left: 40px;
+}
+
+.links .search-box input,
+.tip.custom-block {
+  background-color: $codeBgColor;
+}
+
+.tip.custom-block {
+  border-color: $accentColor;
+}
+.navbar img.logo {
+  margin-top:5px;
+  margin-left:-16px;
+  height:20px;
+}
+
+::-webkit-scrollbar {
+    height: 5px;
+    width: 5px;
+    background: $bgColor;
+}
+
+::-webkit-scrollbar-thumb {
+    background: $accentColor;
+    -webkit-border-radius: 1ex;
+    -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
+}

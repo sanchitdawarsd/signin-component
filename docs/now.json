@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "name": "uItem-docs",
+  "alias": "docs.uItem",
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@now/static-build"
+    }
+  ]
+}
